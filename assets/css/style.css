@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-navbar {
+    overflow: hidden;
+    background-color: #5E3BFF;
+}
+
+.top-navbar a {
+    font-size: 18px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+
+}
+
+.top-navbar a:hover {
+    background-color: #111;
+}
+
+#selected {
+    background-color: rgba(139, 117, 234, 0.85);
+}
+.row {
+    display: flex;
+}
+
+.column {
+    align-self: end;
+    flex: 33.33%;
+    padding: 3px;
+}
+
+#visualizationBox{
+    background-color: #c57e0d;
+    width: 350px;
+    border: 5px solid black;
+    padding: 50px;
+    margin: 20px;
+    align-self: center;
+}
+
+#footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #c57e0d;
+    border: 5px solid black;
+}
+
+table.easeOfAccess, table.easeOfAccess td
+{
+    width:  200px;
+    border:  1px solid white;
+    padding:  10px;
+    margin:  150px 0 150px 0;
+    text-align: center;
+    background-color: #c57e0d;
+}
+table.easeOfAccess {
+    height: 400px;
+}
+table.easeOfAccess td{
+    border-radius: 5px;
+}
+table.easeOfAccess a:link {
+    color:  white;
+}
+table.easeOfAccess a:visited {
+    color: 	black;
+}
+table.easeOfAccess a:hover {
+    color:  blue;
+}
+
+canvas { 
+    background: blue; 
+}
+code {
+    background: #c57e0d;
+    color: #fff;
+    text-decoration-color: #111;
+    display: block;
+    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+    padding: 24px 15px;
+    text-align: center;
+}
+header, section, aside, footer {
+    margin: 0 1.5% 24px 1.5%;
+}
+aside {
+    float: right;
+    width: 25%;
+    margin-top: 15%;
+    margin-bottom: 20px;        
+    border: 3px solid black;
+}
