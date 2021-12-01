@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <title>NASA Psyche Mission - Hollow Cathode Visualization</title>
+</head>
+<body>
+    <!--Header Section-->
+    <div id = "header">
+        <div class="row">
+            <div class="column">
+                <img src="./assets/img/psyche.jpg" alt="Psyche" style="padding: 15px; margin-left: 50px" height= 100px width= 100px>
+            </div>
+        </div>
+        <div class="top-navbar">
+            <a class="nav" id="selected" href="/indexUpdate.html" onclick="setSelected()">Home</a>    <!-- Every pg with bar will have curr. tab class=selected -->
+            <a class="nav" id="n" href="#" onclick="setSelected()">About</a>                     <!-- href is the link to repsective pg -->
+            <a class="nav" href="#visualizationBox" onclick="setSelected()">Visualization</a>
+            <a class="nav" href="#footer" onclick="setSelected()">Credits</a>
+        </div>
+        <script src="./assets/scripts/script.js"></script>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col align-self-center">
+                <!--Ease of Access Section-->
+                <div id = "easeOfAccessSidebar">
+                    <table class="easeOfAccess">
+                        <tr><th>Jump To Slide</th></tr>
+                        <tr><td><a href="https://psyche.asu.edu/">Slide 1</a></td></tr>
+                        <tr><td><a href="https://psyche.asu.edu/">Slide 2</a></td></tr>
+                        <tr><td><a href="https://psyche.asu.edu/">Slide 3</a></td></tr>
+                        <tr><td><a href="https://psyche.asu.edu/">Slide 4</a></td></tr>
+                        <tr><td><a href="https://psyche.asu.edu/">Slide 5</a></td></tr>
+                        <tr><td><a href="https://psyche.asu.edu/">Slide 6</a></td></tr>
+                        <tr><td><a href="https://psyche.asu.edu/">Slide 7</a></td></tr>
+                        <tr><td><a href="https://psyche.asu.edu/">Slide 8</a></td></tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col align-self-center">
+                <!--Visualization Section-->
+                <div id = "visualizationBox">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                      
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                          <div class="item active">
+                            <img src="/assets/img/asu.png" alt="ASU">
+                            <div class="carousel-caption">
+                                <h3>ASU</h3>
+                                <p>Tempe</p>
+                            </div>
+                          </div>
+                      
+                          <div class="item">
+                            <img src="/assets/img/nasa.png" alt="NASA">
+                            <div class="carousel-caption">
+                                <h3>NASA</h3>
+                                <p>Houston</p>
+                            </div>
+                          </div>
+                      
+                          <div class="item">
+                            <img src="/assets/img/psyche.png" alt="Psyche">
+                            <div class="carousel-caption">
+                                <h3>Psyche</h3>
+                                <p>Tempe</p>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col align-self-center">
+                <!--Further Reading Section-->
+                <div id = "furtherReadingSidebar">
+                    <aside>
+                        <code>Further Readings: <br><a href="https://www.google.com" target="_blank">Sample Link</a></br>
+                                                    <a href="https://psyche.asu.edu" target="_blank">Psyche Homepage</a></code>
+                        <code>Other Psyche Animations: <br><a href="https://www.google.com" target="_blank">Sample Link</a></code>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row align-self-center">
+        <div class="col align-self-center">
+            <!--Footer Section-->
+            <div id = "footer">
+                <b>NASA Psyche Mission - Hollow Cathode Visualization Team</b>
+                <p>The team is as follows:</p>
+                <ul>
+                    <li>Travis Andring</li>
+                    <li>Jacob Blackstone</li>
+                    <li>Patrick Chu</li>
+                    <li>Caleb Jamarillo</li>
+                    <li>Andrew Lies</li>
+                    <li>Jacob Lyons</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
