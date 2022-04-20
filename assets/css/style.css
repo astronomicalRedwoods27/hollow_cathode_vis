@@ -2,13 +2,17 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #111;
+    background-image: url("starsbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .top-navbar {
     overflow: hidden;
-    background-color: #5E3BFF;
+    background-color: #302144;
     margin-left: 50px;
-    margin-right: 50px;   
+    margin-right: 50px;
+    border-radius: 15px;   
 }
 
 .top-navbar a {
@@ -28,7 +32,7 @@ body {
 }
 
 #selected {
-    background-color: rgba(139, 117, 234, 0.85);
+    background-color: #592651;
 }
 .row {
     display: flex;
@@ -41,14 +45,6 @@ body {
     padding: 3px;
 }
 
-#visualizationBox{
-    width: 350px;
-    border: 5px solid black;
-    padding: 100px;
-    margin: 100px;
-    align-self: center;
-}
-
 #footer {
     text-align: center;
     align-self: center;
@@ -57,7 +53,7 @@ body {
     margin-right: 50px;
     margin-bottom: 50px;
     background-color: #c57e0d;
-    border: 5px solid black;
+    border-radius: 15px;
 }
 
 table.easeOfAccess, table.easeOfAccess td
@@ -110,4 +106,37 @@ aside {
 
 ul {
     list-style-position: inside;
+}
+
+.container
+{
+    padding: 15px;
+}
+
+.firstColumn {
+    width: 80%;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+.secondColumn {
+    width: 20%;
+    padding: 0 10px 0 0;
+    float: right;
+}
+
+@media only screen and (max-width: 800px) {
+
+   .firstColumn {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+    }
+
+    .secondColumn {
+        width: 100%;
+        padding-bottom: 10px;
+        float: none;
+    }
+    
 }
