@@ -16,26 +16,39 @@
 <body>
     <!--Header Section-->
     <div id = "header">
+         <!--Icons-->
         <div class="row">
             <div class="column">
-                <img src="./assets/img/psyche.jpg" alt="Psyche" style="padding: 15px; margin-left: 50px" height= 100px width= 100px>
+                <a href="https://psyche.asu.edu/">
+                    <img src="./assets/img/psyche.jpg" alt="Psyche" style="padding: 15px; margin-left: 50px" height= 99px width= 100px>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.nasa.gov/psyche">
+                    <img src="./assets/img/nasa.png" alt="NAsa" style="padding: 15px; margin-left: 50px" height= 85px width= 100px>
+                </a>
             </div>
         </div>
+        <!--Navbar-->
         <div class="top-navbar">
-            <a class="nav" id="selected" href="/indexUpdate.html" onclick="setSelected()">Home</a>    <!-- Every pg with bar will have curr. tab class=selected -->
-            <a class="nav" id="n" href="#" onclick="setSelected()">About</a>                     <!-- href is the link to repsective pg -->
-            <a class="nav" href="#visualization" onclick="setSelected()">Visualization</a>
+            <a class="nav" href="/indexUpdate.html" onclick="setSelected()">Home</a>    
+            <a class="nav" href="#visualization" onclick="setSelected()">Visualization</a>            
+            <a class="nav" href="https://psyche.asu.edu/" onclick="setSelected()">Psyche Mission Site</a>
             <a class="nav" href="#footer" onclick="setSelected()">Credits</a>
         </div>
         <script src="./assets/scripts/script.js"></script>
     </div>
 
+    <!--Visualization and Key Section-->
     <div class="container">
+         <!--Visualization-->
         <div class="firstColumn">
             <div id = "visualization">
+                 <!--When posting to server, please update src below with link to hosted WebGL build-->
                 <iframe src="https://i.simmer.io/@jjlyons2/hollow-cathode-visualization" style="width:1100px;height:619px"></iframe>
             </div>
         </div>
+        <!--Element Keys-->
         <!-- <div class="secondColumn">
             <div id = "key">
                 This is a key to be used to navigate the visualization.
@@ -43,16 +56,48 @@
         </div> -->
     </div>
 
+    <!--User Instructions Section-->
     <div class="row align-self-center">
         <div class="col align-self-center">
-            <!--Footer Section-->
-            <div id = "footer">
-                <b>NASA Psyche Mission - Hollow Cathode Visualization Team</b>
-                <br><br>
-                <p>Travis Andring, Jacob Blackstone, Patrick Chu, Caleb Jamarillo, Andrew Lies, Jacob Lyons</p>
+            <div id="instructions">
+                <p>
+                    Navigate the animation using the arrow buttons on either side of the Visualization. 
+                    To play each slide's animation, click on the slide as instructed by the text boxes.
+                </p>
             </div>
         </div>
     </div>
     
+     <!--Footer Section-->
+    <div class="row align-self-center">
+        <div class="col align-self-center">
+            <div id ="footer">
+                <b>NASA Psyche Mission - Hollow Cathode Visualization Team</b>
+                <br><br>
+                <p>Andrew Lies - Project Manager</p>
+                <p>Caleb Jaramillo- Lead Developer, Animation</p>
+                <p>Jacob Blackstone - Data Analyst, Animation</p>
+                <p>Jacob Lyons - Site Manager, Animation</p>
+                <p>Patrick Chu - Head of Research, Animation</p>
+                <p>Travis Andring - Head Animation Developer </p>
+            </div>
+        </div>
+    </div>
+
+     <!--Disclaimer Section-->
+    <div class="row align-self-center">
+        <div id="disclaimer">
+            <p>
+               This work was created in partial fulfillment of Arizona State University's Capstone Courses “CSE 486″ and "IEE 486". 
+               The work is a result of the Psyche Student Collaborations component of NASA’s Psyche Mission (https://psyche.asu.edu/). 
+               “Psyche: A Journey to a Metal World” [Contract number NNM16AA09C] is part of the NASA Discovery Program 
+               mission to solar system targets. 
+               Trade names and trademarks of ASU and NASA are used in this work for identification only. 
+               Their usage does not constitute an official endorsement, either expressed or implied, by Arizona State University or 
+               National Aeronautics and Space Administration. The content is solely the responsibility of the authors and 
+               does not necessarily represent the official views of ASU or NASA.
+            </p>
+        </div>
+    </div>
 </body>
 </html>

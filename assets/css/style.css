@@ -1,10 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #111;
-    background-image: url("starsbackground.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
+}
+
+header{
+    margin: 0 1.5% 24px 1.5%;
 }
 
 .top-navbar {
@@ -28,12 +28,17 @@ body {
 }
 
 .top-navbar a:hover {
-    background-color: #111;
+    background-color: #a53f5b;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #f2f2f2
 }
 
-#selected {
-    background-color: #592651;
+.container
+{
+    padding: 15px;
 }
+
 .row {
     display: flex;
     align-items: center;
@@ -45,77 +50,42 @@ body {
     padding: 3px;
 }
 
+#instructions {
+    text-align: center;
+    align-self: center;
+    padding: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 15px;
+    color: #f2f2f2;
+    background-color: #592651;
+    border-radius: 15px;
+}
+
+#disclaimer {
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
 #footer {
     text-align: center;
     align-self: center;
     padding: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 15px;
     background-color: #c57e0d;
     border-radius: 15px;
 }
 
-table.easeOfAccess, table.easeOfAccess td
-{
-    width:  200px;
-    border:  1px solid white;
-    padding:  10px;
-    margin:  150px 0 150px 0;
-    text-align: center;
-    background-color: #c57e0d;
-}
-table.easeOfAccess {
-    height: 400px;
-}
-table.easeOfAccess td{
-    border-radius: 5px;
-}
-table.easeOfAccess a:link {
-    color:  white;
-}
-table.easeOfAccess a:visited {
-    color: 	black;
-}
-table.easeOfAccess a:hover {
-    color:  blue;
-}
-
-canvas { 
-    background: blue; 
-}
-code {
-    background: #c57e0d;
-    color: #fff;
-    text-decoration-color: #111;
-    display: block;
-    font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-    padding: 24px 15px;
-    text-align: center;
-}
-header, section, aside{
-    margin: 0 1.5% 24px 1.5%;
-}
-aside {
-    float: right;
-    width: 75%;
-    margin-top: 15%;
-    margin-bottom: 20px;        
-    border: 3px solid black;
-}
-
-ul {
-    list-style-position: inside;
-}
-
-.container
-{
-    padding: 15px;
-}
-
 .firstColumn {
     width: 80%;
-    padding: 0 10px 0 0;
+    padding: 0 0 0 0;
     float: left;
 }
 
