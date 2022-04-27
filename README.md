@@ -3,7 +3,7 @@ Repository for source control for NASA Psyche Copper Class Team 06a: Hollow Cath
 
 Hello there, and welcome to the repository for the NASA Psyche Copper Class Team 06a: Hollow Cathode Visualization!
 
-This project was developed by Travis Andring, Jacob Blackstone, Patrick Chu, Caleb Jaramillo, Andrew Lies, and Jacob Lyons for Cassie Bowman and Dr. Jason Frieman
+This project was developed by Travis Andring, Jacob Blackstone, Patrick Chu, Caleb Jaramillo, Andrew Lies, and Jacob Lyons for Cassie Bowman and Dr. Jason Frieman.
 
 The site is comprised as follows:
 
@@ -26,6 +26,6 @@ Credits
 Disclaimer
 - Included as a Psyche Project disclaimer
 
-If you have any questions, or would like to collaborator access to this repository, email Jacob Lyons at jacob.lyons27@gmail.com
+If you have any questions, or would like to collaborator access to this repository, email Jacob Lyons at jacob.lyons27@gmail.com.
 
 Thank you, and enjoy.
